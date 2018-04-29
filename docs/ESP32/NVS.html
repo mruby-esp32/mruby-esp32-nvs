@@ -1,0 +1,1871 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  Class: ESP32::NVS
+  
+    &mdash; Documentation by YARD 0.9.12
+  
+</title>
+
+  <link rel="stylesheet" href="../css/style.css" type="text/css" charset="utf-8" />
+
+  <link rel="stylesheet" href="../css/common.css" type="text/css" charset="utf-8" />
+
+  <link rel="stylesheet" href="../css/mruby.css" type="text/css" charset="utf-8" />
+
+<script type="text/javascript" charset="utf-8">
+  pathId = "ESP32::NVS";
+  relpath = '../';
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="../js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="../js/app.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="../js/mruby.js"></script>
+
+
+  </head>
+  <body>
+    <div class="nav_wrap">
+      <iframe id="nav" src="../class_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
+  
+    <a href="../_index.html">Index (N)</a> &raquo;
+    <span class='title'><span class='object_link'><a href="../ESP32.html" title="ESP32 (module)">ESP32</a></span></span>
+     &raquo; 
+    <span class="title">NVS</span>
+  
+</div>
+
+        <div id="search">
+  
+    <a class="full_list_link" id="class_list_link"
+        href="../class_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
+  
+</div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><h1>Class: ESP32::NVS
+  
+  
+  
+</h1>
+<div class="box_info">
+  
+  <dl>
+    <dt>Inherits:</dt>
+    <dd>
+      <span class="inheritName">Object</span>
+      
+        <ul class="fullTree">
+          <li>Object</li>
+          
+            <li class="next">ESP32::NVS</li>
+          
+        </ul>
+        <a href="#" class="inheritanceTree">show all</a>
+      
+    </dd>
+  </dl>
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  <dl>
+    <dt>Defined in:</dt>
+    <dd>src/nvs.c<span class="defines">,<br />
+  mrblib/nvs.rb</span>
+</dd>
+  </dl>
+  
+</div>
+
+<h2>Overview</h2><div class="docstring">
+  <div class="discussion">
+    
+<p>ESP-IDF Non-volatile storage library wrapper class.</p>
+
+<p>c.f.
+<a href="http://esp-idf.readthedocs.io/en/v3.0/api-reference/storage/nvs_flash.html" target="_parent" title="Non-volatile storage library documentation">Non-volatile storage library documentation</a></p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
+
+
+
+
+
+
+
+
+  
+    <h2>
+      Class Method Summary
+      <small><a href="#" class="summary_toggle">collapse</a></small>
+    </h2>
+
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#open-class_method" title="open (class method)">.<strong>open</strong>(part_name = ESP32::NVS::DEFAULT_PART_NAME, name, open_mode)  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+    </ul>
+  
+    <h2>
+      Instance Method Summary
+      <small><a href="#" class="summary_toggle">collapse</a></small>
+    </h2>
+
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#close-instance_method" title="#close (instance method)">#<strong>close</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#commit-instance_method" title="#commit (instance method)">#<strong>commit</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#erase_all-instance_method" title="#erase_all (instance method)">#<strong>erase_all</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#erase_key-instance_method" title="#erase_key (instance method)">#<strong>erase_key</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#get_blob-instance_method" title="#get_blob (instance method)">#<strong>get_blob</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#get_i16-instance_method" title="#get_i16 (instance method)">#<strong>get_i16</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#get_i32-instance_method" title="#get_i32 (instance method)">#<strong>get_i32</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#get_i64-instance_method" title="#get_i64 (instance method)">#<strong>get_i64</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#get_i8-instance_method" title="#get_i8 (instance method)">#<strong>get_i8</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#get_str-instance_method" title="#get_str (instance method)">#<strong>get_str</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#initialize-instance_method" title="#initialize (instance method)">#<strong>initialize</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+    <span class="note title constructor">constructor</span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#set_blob-instance_method" title="#set_blob (instance method)">#<strong>set_blob</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#set_i16-instance_method" title="#set_i16 (instance method)">#<strong>set_i16</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#set_i32-instance_method" title="#set_i32 (instance method)">#<strong>set_i32</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#set_i64-instance_method" title="#set_i64 (instance method)">#<strong>set_i64</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#set_i8-instance_method" title="#set_i8 (instance method)">#<strong>set_i8</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#set_str-instance_method" title="#set_str (instance method)">#<strong>set_str</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+    </ul>
+  
+
+<div id="constructor_details" class="method_details_list">
+  <h2>Constructor Details</h2>
+  
+    <div class="method_details first">
+  <h3 class="signature first" id="initialize-instance_method">
+  
+    #<strong>initialize</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+  <div class="examples">
+    <p class="tag_title">Examples:</p>
+    
+      
+      <pre class="example code"><code><span class='id identifier rubyid_open_mode'>open_mode</span> <span class='op'>=</span> <span class='const'><span class='object_link'><a href="../ESP32.html" title="ESP32 (module)">ESP32</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="" title="ESP32::NVS (class)">NVS</a></span></span><span class='op'>::</span><span class='const'>READWRITE</span>
+<span class='const'><span class='object_link'><a href="../ESP32.html" title="ESP32 (module)">ESP32</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="" title="ESP32::NVS (class)">NVS</a></span></span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>name</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='id identifier rubyid_open_mode'>open_mode</span><span class='rparen'>)</span>
+<span class='const'><span class='object_link'><a href="../ESP32.html" title="ESP32 (module)">ESP32</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="" title="ESP32::NVS (class)">NVS</a></span></span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>part name</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>name</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='id identifier rubyid_open_mode'>open_mode</span><span class='rparen'>)</span></code></pre>
+    
+  </div>
+
+
+</div>
+
+<table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/nvs.c', line 116</span>
+
+static mrb_value mrb_esp32_nvs_init(mrb_state *mrb, mrb_value self) {
+  mrb_value part_name, name, open_mode;
+  if (mrb_get_args(mrb, &quot;oo|o&quot;, &amp;part_name, &amp;name, &amp;open_mode) == 2) {
+    open_mode = name;
+    name = part_name;
+    part_name = mrb_const_get(mrb, mrb_obj_value(mrb_class_get_under(mrb, mrb_module_get(mrb, &quot;ESP32&quot;), &quot;NVS&quot;)), mrb_intern_lit(mrb, &quot;DEFAULT_PART_NAME&quot;));
+  }
+
+  if (!mrb_string_p(part_name)) {
+    mrb_raise(mrb, E_ARGUMENT_ERROR, &quot;part_name should be a string&quot;);
+  }
+
+  if (!mrb_string_p(name)) {
+    mrb_raise(mrb, E_ARGUMENT_ERROR, &quot;name should be a string&quot;);
+  }
+
+  if (!mrb_fixnum_p(open_mode)) {
+    mrb_raise(mrb, E_ARGUMENT_ERROR, &quot;opt_mode should be a integer&quot;);
+  }
+
+  nvs_handle out_handle;
+  esp_err_t err = nvs_open_from_partition(RSTRING_PTR(part_name), RSTRING_PTR(name), (nvs_open_mode)mrb_fixnum(open_mode), &amp;out_handle);
+  if (err != ESP_OK) {
+    mrb_raise_esp32_err(mrb, err);
+  }
+
+  mrb_data_init(self, (void *)out_handle, &amp;mrb_esp32_nvs_type);
+
+  return self;
+}</pre>
+    </td>
+  </tr>
+</table>
+</div>
+  
+</div>
+
+
+  <div id="class_method_details" class="method_details_list">
+    <h2>Class Method Details</h2>
+
+    
+      <div class="method_details first">
+  <h3 class="signature first" id="open-class_method">
+  
+    .<strong>open</strong>(part_name = ESP32::NVS::DEFAULT_PART_NAME, name, open_mode)  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+  <div class="examples">
+    <p class="tag_title">Examples:</p>
+    
+      
+        <p class="example_title"><div class='inline'>
+<p>Write values</p>
+</div></p>
+      
+      <pre class="example code"><code><span class='const'><span class='object_link'><a href="../ESP32.html" title="ESP32 (module)">ESP32</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="" title="ESP32::NVS (class)">NVS</a></span></span><span class='period'>.</span><span class='id identifier rubyid_open'>open</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>namespace</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="../ESP32.html" title="ESP32 (module)">ESP32</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="" title="ESP32::NVS (class)">NVS</a></span></span><span class='op'>::</span><span class='const'>READWRITE</span><span class='rparen'>)</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_nvs'>nvs</span><span class='op'>|</span>
+  <span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_set_i8'>set_i8</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>8</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='int'>8</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_set_i16'>set_i16</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>16</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='int'>16</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_set_i32'>set_i32</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>32</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='int'>32</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_set_i64'>set_i64</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>64</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='int'>64</span><span class='rparen'>)</span> <span class='comment'># depends on MRB_INT_BIT
+</span>  <span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_set_str'>set_str</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>str</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>STR</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_set_blob'>set_blob</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>blob</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>BLOB</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+<span class='kw'>end</span></code></pre>
+    
+      
+        <p class="example_title"><div class='inline'>
+<p>Read values</p>
+</div></p>
+      
+      <pre class="example code"><code><span class='const'><span class='object_link'><a href="../ESP32.html" title="ESP32 (module)">ESP32</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="" title="ESP32::NVS (class)">NVS</a></span></span><span class='period'>.</span><span class='id identifier rubyid_open'>open</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>namespace</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="../ESP32.html" title="ESP32 (module)">ESP32</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="" title="ESP32::NVS (class)">NVS</a></span></span><span class='op'>::</span><span class='const'>READONLY</span><span class='rparen'>)</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_nvs'>nvs</span><span class='op'>|</span>
+  <span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_get_i8'>get_i8</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>8</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_get_i16'>get_i16</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>16</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_get_i32'>get_i32</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>32</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_get_i64'>get_i64</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>64</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span> <span class='comment'># depends on MRB_INT_BIT
+</span>  <span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_get_str'>get_str</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>str</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_get_blob'>get_blob</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>blob</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+<span class='kw'>end</span></code></pre>
+    
+      
+        <p class="example_title"><div class='inline'>
+<p>Read value from different partition</p>
+</div></p>
+      
+      <pre class="example code"><code><span class='const'><span class='object_link'><a href="../ESP32.html" title="ESP32 (module)">ESP32</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="" title="ESP32::NVS (class)">NVS</a></span></span><span class='period'>.</span><span class='id identifier rubyid_open'>open</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>music</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>bgm</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="../ESP32.html" title="ESP32 (module)">ESP32</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="" title="ESP32::NVS (class)">NVS</a></span></span><span class='op'>::</span><span class='const'>READONLY</span><span class='rparen'>)</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_nvs'>nvs</span><span class='op'>|</span>
+  <span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_get_blob'>get_blob</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>1.mp3</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+<span class='kw'>end</span></code></pre>
+    
+  </div>
+
+
+</div>
+
+<table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+27
+28
+29
+30
+31
+32
+33
+34
+35</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'mrblib/nvs.rb', line 27</span>
+
+<span class='kw'>def</span> <span class='kw'>self</span><span class='period'>.</span><span class='id identifier rubyid_open'>open</span><span class='lparen'>(</span><span class='id identifier rubyid_part_name'>part_name</span> <span class='op'>=</span> <span class='const'><span class='object_link'><a href="../ESP32.html" title="ESP32 (module)">ESP32</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="" title="ESP32::NVS (class)">NVS</a></span></span><span class='op'>::</span><span class='const'>DEFAULT_PART_NAME</span><span class='comma'>,</span> <span class='id identifier rubyid_name'>name</span><span class='comma'>,</span> <span class='id identifier rubyid_open_mode'>open_mode</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_nvs'>nvs</span> <span class='op'>=</span> <span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='id identifier rubyid_part_name'>part_name</span><span class='comma'>,</span> <span class='id identifier rubyid_name'>name</span><span class='comma'>,</span> <span class='id identifier rubyid_open_mode'>open_mode</span><span class='rparen'>)</span>
+  <span class='kw'>begin</span>
+    <span class='kw'>yield</span> <span class='id identifier rubyid_nvs'>nvs</span>
+    <span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_commit'>commit</span>
+  <span class='kw'>ensure</span>
+    <span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_close'>close</span>
+  <span class='kw'>end</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+  <div id="instance_method_details" class="method_details_list">
+    <h2>Instance Method Details</h2>
+
+    
+      <div class="method_details first">
+  <h3 class="signature first" id="close-instance_method">
+  
+    #<strong>close</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+  <div class="examples">
+    <p class="tag_title">Examples:</p>
+    
+      
+      <pre class="example code"><code><span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_close'>close</span></code></pre>
+    
+  </div>
+
+
+</div>
+
+<table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+432
+433
+434
+435
+436</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/nvs.c', line 432</span>
+
+static mrb_value mrb_esp32_nvs_close(mrb_state *mrb, mrb_value self) {
+  nvs_handle handle = (nvs_handle)DATA_PTR(self);
+  nvs_close(handle);
+  return mrb_nil_value();
+}</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="commit-instance_method">
+  
+    #<strong>commit</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+  <div class="examples">
+    <p class="tag_title">Examples:</p>
+    
+      
+      <pre class="example code"><code><span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_commit'>commit</span></code></pre>
+    
+  </div>
+
+
+</div>
+
+<table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+418
+419
+420
+421
+422
+423
+424
+425
+426</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/nvs.c', line 418</span>
+
+static mrb_value mrb_esp32_nvs_commit(mrb_state *mrb, mrb_value self) {
+  nvs_handle handle = (nvs_handle)DATA_PTR(self);
+  esp_err_t err = nvs_commit(handle);
+  if (err != ESP_OK) {
+    mrb_raise_esp32_err(mrb, err);
+  }
+
+  return mrb_nil_value();
+}</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="erase_all-instance_method">
+  
+    #<strong>erase_all</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+  <div class="examples">
+    <p class="tag_title">Examples:</p>
+    
+      
+      <pre class="example code"><code><span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_erase_all'>erase_all</span></code></pre>
+    
+  </div>
+
+
+</div>
+
+<table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+404
+405
+406
+407
+408
+409
+410
+411
+412</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/nvs.c', line 404</span>
+
+static mrb_value mrb_esp32_nvs_erase_all(mrb_state *mrb, mrb_value self) {
+  nvs_handle handle = (nvs_handle)DATA_PTR(self);
+  esp_err_t err = nvs_erase_all(handle);
+  if (err != ESP_OK) {
+    mrb_raise_esp32_err(mrb, err);
+  }
+
+  return mrb_nil_value();
+}</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="erase_key-instance_method">
+  
+    #<strong>erase_key</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+  <div class="examples">
+    <p class="tag_title">Examples:</p>
+    
+      
+      <pre class="example code"><code><span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_erase_key'>erase_key</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>key</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span></code></pre>
+    
+  </div>
+
+
+</div>
+
+<table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+387
+388
+389
+390
+391
+392
+393
+394
+395
+396
+397
+398</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/nvs.c', line 387</span>
+
+static mrb_value mrb_esp32_nvs_erase_key(mrb_state *mrb, mrb_value self) {
+  char *key;
+  mrb_get_args(mrb, &quot;z&quot;, &amp;key);
+
+  nvs_handle handle = (nvs_handle)DATA_PTR(self);
+  esp_err_t err = nvs_erase_key(handle, key);
+  if (err != ESP_OK) {
+    mrb_raise_esp32_err(mrb, err);
+  }
+
+  return mrb_nil_value();
+}</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="get_blob-instance_method">
+  
+    #<strong>get_blob</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+  <div class="examples">
+    <p class="tag_title">Examples:</p>
+    
+      
+      <pre class="example code"><code><span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_get_blob'>get_blob</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>key</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span></code></pre>
+    
+  </div>
+
+
+</div>
+
+<table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+363
+364
+365
+366
+367
+368
+369
+370
+371
+372
+373
+374
+375
+376
+377
+378
+379
+380
+381</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/nvs.c', line 363</span>
+
+static mrb_value mrb_esp32_nvs_get_blob(mrb_state *mrb, mrb_value self) {
+  char *key;
+  mrb_get_args(mrb, &quot;z&quot;, &amp;key);
+
+  nvs_handle handle = (nvs_handle)DATA_PTR(self);
+  size_t length;
+  esp_err_t err = nvs_get_blob(handle, key, NULL, &amp;length);
+  if (err != ESP_OK) {
+    mrb_raise_esp32_err(mrb, err);
+  }
+
+  mrb_value str = mrb_str_new(mrb, NULL, length);
+  err = nvs_get_blob(handle, key, RSTRING_PTR(str), &amp;length);
+  if (err != ESP_OK) {
+    mrb_raise_esp32_err(mrb, err);
+  }
+
+  return str;
+}</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="get_i16-instance_method">
+  
+    #<strong>get_i16</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+  <div class="examples">
+    <p class="tag_title">Examples:</p>
+    
+      
+      <pre class="example code"><code><span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_get_i16'>get_i16</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>key</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span></code></pre>
+    
+  </div>
+
+
+</div>
+
+<table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/nvs.c', line 208</span>
+
+static mrb_value mrb_esp32_nvs_get_i16(mrb_state *mrb, mrb_value self) {
+  char *key;
+  mrb_get_args(mrb, &quot;z&quot;, &amp;key);
+
+  nvs_handle handle = (nvs_handle)DATA_PTR(self);
+  int16_t out_value;
+  esp_err_t err = nvs_get_i16(handle, key, &amp;out_value);
+  if (err != ESP_OK) {
+    mrb_raise_esp32_err(mrb, err);
+  }
+
+  return mrb_fixnum_value((mrb_int)out_value);
+}</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="get_i32-instance_method">
+  
+    #<strong>get_i32</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+  <div class="examples">
+    <p class="tag_title">Examples:</p>
+    
+      
+      <pre class="example code"><code><span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_get_i32'>get_i32</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>key</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span></code></pre>
+    
+  </div>
+
+
+</div>
+
+<table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/nvs.c', line 246</span>
+
+static mrb_value mrb_esp32_nvs_get_i32(mrb_state *mrb, mrb_value self) {
+  char *key;
+  mrb_get_args(mrb, &quot;z&quot;, &amp;key);
+
+  nvs_handle handle = (nvs_handle)DATA_PTR(self);
+  int32_t out_value;
+  esp_err_t err = nvs_get_i32(handle, key, &amp;out_value);
+  if (err != ESP_OK) {
+    mrb_raise_esp32_err(mrb, err);
+  }
+
+  return mrb_fixnum_value((mrb_int)out_value);
+}</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="get_i64-instance_method">
+  
+    #<strong>get_i64</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+  <div class="examples">
+    <p class="tag_title">Examples:</p>
+    
+      
+      <pre class="example code"><code><span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_get_i64'>get_i64</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>key</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span></code></pre>
+    
+  </div>
+
+
+</div>
+
+<table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/nvs.c', line 284</span>
+
+static mrb_value mrb_esp32_nvs_get_i64(mrb_state *mrb, mrb_value self) {
+  char *key;
+  mrb_get_args(mrb, &quot;z&quot;, &amp;key);
+
+  nvs_handle handle = (nvs_handle)DATA_PTR(self);
+  int64_t out_value;
+  esp_err_t err = nvs_get_i64(handle, key, &amp;out_value);
+  if (err != ESP_OK) {
+    mrb_raise_esp32_err(mrb, err);
+  }
+
+  return mrb_fixnum_value((mrb_int)out_value);
+}</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="get_i8-instance_method">
+  
+    #<strong>get_i8</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+  <div class="examples">
+    <p class="tag_title">Examples:</p>
+    
+      
+      <pre class="example code"><code><span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_get_i8'>get_i8</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>key</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span></code></pre>
+    
+  </div>
+
+
+</div>
+
+<table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/nvs.c', line 170</span>
+
+static mrb_value mrb_esp32_nvs_get_i8(mrb_state *mrb, mrb_value self) {
+  char *key;
+  mrb_get_args(mrb, &quot;z&quot;, &amp;key);
+
+  nvs_handle handle = (nvs_handle)DATA_PTR(self);
+  int8_t out_value;
+  esp_err_t err = nvs_get_i8(handle, key, &amp;out_value);
+  if (err != ESP_OK) {
+    mrb_raise_esp32_err(mrb, err);
+  }
+
+  return mrb_fixnum_value((mrb_int)out_value);
+}</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="get_str-instance_method">
+  
+    #<strong>get_str</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+  <div class="examples">
+    <p class="tag_title">Examples:</p>
+    
+      
+      <pre class="example code"><code><span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_get_str'>get_str</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>key</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span></code></pre>
+    
+  </div>
+
+
+</div>
+
+<table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+321
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+335
+336
+337
+338
+339</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/nvs.c', line 321</span>
+
+static mrb_value mrb_esp32_nvs_get_str(mrb_state *mrb, mrb_value self) {
+  char *key;
+  mrb_get_args(mrb, &quot;z&quot;, &amp;key);
+
+  nvs_handle handle = (nvs_handle)DATA_PTR(self);
+  size_t length;
+  esp_err_t err = nvs_get_str(handle, key, NULL, &amp;length);
+  if (err != ESP_OK) {
+    mrb_raise_esp32_err(mrb, err);
+  }
+
+  mrb_value str = mrb_str_new(mrb, NULL, length);
+  err = nvs_get_str(handle, key, RSTRING_PTR(str), &amp;length);
+  if (err != ESP_OK) {
+    mrb_raise_esp32_err(mrb, err);
+  }
+
+  return str;
+}</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="set_blob-instance_method">
+  
+    #<strong>set_blob</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+  <div class="examples">
+    <p class="tag_title">Examples:</p>
+    
+      
+      <pre class="example code"><code><span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_set_blob'>set_blob</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>key</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>hi</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span></code></pre>
+    
+  </div>
+
+
+</div>
+
+<table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+345
+346
+347
+348
+349
+350
+351
+352
+353
+354
+355
+356
+357</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/nvs.c', line 345</span>
+
+static mrb_value mrb_esp32_nvs_set_blob(mrb_state *mrb, mrb_value self) {
+  char *key;
+  mrb_value value;
+  mrb_get_args(mrb, &quot;zS&quot;, &amp;key, &amp;value);
+
+  nvs_handle handle = (nvs_handle)DATA_PTR(self);
+  esp_err_t err = nvs_set_blob(handle, key, RSTRING_PTR(value), RSTRING_LEN(value));
+  if (err != ESP_OK) {
+    mrb_raise_esp32_err(mrb, err);
+  }
+
+  return value;
+}</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="set_i16-instance_method">
+  
+    #<strong>set_i16</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+  <div class="examples">
+    <p class="tag_title">Examples:</p>
+    
+      
+      <pre class="example code"><code><span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_set_i16'>set_i16</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>key</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='int'>42</span><span class='rparen'>)</span></code></pre>
+    
+  </div>
+
+
+</div>
+
+<table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/nvs.c', line 190</span>
+
+static mrb_value mrb_esp32_nvs_set_i16(mrb_state *mrb, mrb_value self) {
+  char *key;
+  mrb_int value;
+  mrb_get_args(mrb, &quot;zi&quot;, &amp;key, &amp;value);
+
+  nvs_handle handle = (nvs_handle)DATA_PTR(self);
+  esp_err_t err = nvs_set_i16(handle, key, (int16_t)value);
+  if (err != ESP_OK) {
+    mrb_raise_esp32_err(mrb, err);
+  }
+
+  return mrb_fixnum_value(value);
+}</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="set_i32-instance_method">
+  
+    #<strong>set_i32</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+  <div class="examples">
+    <p class="tag_title">Examples:</p>
+    
+      
+      <pre class="example code"><code><span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_set_i32'>set_i32</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>key</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='int'>42</span><span class='rparen'>)</span></code></pre>
+    
+  </div>
+
+
+</div>
+
+<table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/nvs.c', line 228</span>
+
+static mrb_value mrb_esp32_nvs_set_i32(mrb_state *mrb, mrb_value self) {
+  char *key;
+  mrb_int value;
+  mrb_get_args(mrb, &quot;zi&quot;, &amp;key, &amp;value);
+
+  nvs_handle handle = (nvs_handle)DATA_PTR(self);
+  esp_err_t err = nvs_set_i32(handle, key, (int32_t)value);
+  if (err != ESP_OK) {
+    mrb_raise_esp32_err(mrb, err);
+  }
+
+  return mrb_fixnum_value(value);
+}</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="set_i64-instance_method">
+  
+    #<strong>set_i64</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+  <div class="examples">
+    <p class="tag_title">Examples:</p>
+    
+      
+      <pre class="example code"><code><span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_set_i64'>set_i64</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>key</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='int'>42</span><span class='rparen'>)</span></code></pre>
+    
+  </div>
+
+
+</div>
+
+<table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/nvs.c', line 266</span>
+
+static mrb_value mrb_esp32_nvs_set_i64(mrb_state *mrb, mrb_value self) {
+  char *key;
+  mrb_int value;
+  mrb_get_args(mrb, &quot;zi&quot;, &amp;key, &amp;value);
+
+  nvs_handle handle = (nvs_handle)DATA_PTR(self);
+  esp_err_t err = nvs_set_i64(handle, key, (int64_t)value);
+  if (err != ESP_OK) {
+    mrb_raise_esp32_err(mrb, err);
+  }
+
+  return mrb_fixnum_value(value);
+}</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="set_i8-instance_method">
+  
+    #<strong>set_i8</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+  <div class="examples">
+    <p class="tag_title">Examples:</p>
+    
+      
+      <pre class="example code"><code><span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_set_i8'>set_i8</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>key</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='int'>42</span><span class='rparen'>)</span></code></pre>
+    
+  </div>
+
+
+</div>
+
+<table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/nvs.c', line 152</span>
+
+static mrb_value mrb_esp32_nvs_set_i8(mrb_state *mrb, mrb_value self) {
+  char *key;
+  mrb_int value;
+  mrb_get_args(mrb, &quot;zi&quot;, &amp;key, &amp;value);
+
+  nvs_handle handle = (nvs_handle)DATA_PTR(self);
+  esp_err_t err = nvs_set_i8(handle, key, (int8_t)value);
+  if (err != ESP_OK) {
+    mrb_raise_esp32_err(mrb, err);
+  }
+
+  return mrb_fixnum_value(value);
+}</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="set_str-instance_method">
+  
+    #<strong>set_str</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+  <div class="examples">
+    <p class="tag_title">Examples:</p>
+    
+      
+      <pre class="example code"><code><span class='id identifier rubyid_nvs'>nvs</span><span class='period'>.</span><span class='id identifier rubyid_set_str'>set_str</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>key</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>hi</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span></code></pre>
+    
+  </div>
+
+
+</div>
+
+<table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/nvs.c', line 303</span>
+
+static mrb_value mrb_esp32_nvs_set_str(mrb_state *mrb, mrb_value self) {
+  char *key;
+  mrb_value value;
+  mrb_get_args(mrb, &quot;zS&quot;, &amp;key, &amp;value);
+
+  nvs_handle handle = (nvs_handle)DATA_PTR(self);
+  esp_err_t err = nvs_set_str(handle, key, RSTRING_PTR(value));
+  if (err != ESP_OK) {
+    mrb_raise_esp32_err(mrb, err);
+  }
+
+  return value;
+}</pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+</div>
+
+      <div id="footer">
+  Generated on Sun Apr 29 17:32:41 2018 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.9.12 in <a href="https://github.com/sagmor/yard-mruby">mruby mode</a> 0.3.0 (ruby-2.5.1).
+</div>
+
+    </div>
+  </body>
+</html>
