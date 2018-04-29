@@ -1,10 +1,6 @@
 #include <mruby.h>
-/* #include <mruby/array.h> */
-/* #include <mruby/class.h> */
 #include <mruby/data.h>
-/* #include <mruby/hash.h> */
 #include <mruby/string.h>
-/* #include <mruby/value.h> */
 #include <mruby/variable.h>
 #include <esp_err.h>
 #include <nvs_flash.h>
